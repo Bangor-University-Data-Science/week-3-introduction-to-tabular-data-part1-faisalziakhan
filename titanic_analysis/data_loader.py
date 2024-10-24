@@ -1,6 +1,6 @@
 import pandas as pd
 
-def load_titanic_data(filepath: str = "../data/titanic.csv") -> pd.DataFrame:
+def load_titanic_data(filepath: str = "../../data/titanic.csv") -> pd.DataFrame:
    
     try:
         df = pd.read_csv(filepath)
